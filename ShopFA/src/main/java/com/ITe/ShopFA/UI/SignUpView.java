@@ -149,6 +149,12 @@ public class SignUpView {
     contentPane.add(offbtn);
 
     sendotpbtn = new JLabel("Send OTP");
+       sendotpbtn.addMouseListener(new MouseAdapter() {
+           @Override
+           public void mouseClicked(MouseEvent e) {
+
+           }
+       });
     sendotpbtn.setHorizontalAlignment(SwingConstants.CENTER);
     sendotpbtn.setFont(new Font("Roboto", Font.BOLD, 15));
     sendotpbtn.setBounds(664, 430, 98, 49);

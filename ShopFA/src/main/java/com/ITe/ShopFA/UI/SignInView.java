@@ -35,6 +35,7 @@ public class SignInView  {
     private JTextField passwordTxt;
     private JLabel loginBtn;
     private JLabel imglbl;
+    public User user;
     public SignInView() {
 
         JFrame frame  = new JFrame();
